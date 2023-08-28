@@ -5,7 +5,12 @@
 .formulario-campo-texto label {
     display: block;
     margin-bottom: 8px;
-    font-size: 24px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 
 }
 
