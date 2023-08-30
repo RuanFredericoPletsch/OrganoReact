@@ -3,7 +3,7 @@ import './FormularioCampoTexto.css'
 
 const FormularioCampoTexto = (props) => {
     
-    const placeholderModificiada = `${props.placeholder}...`
+    const placeholderModificada = `${props.placeholder}...`
 
     const [nome, setNome] = useState('')
     const [cargo, setCargo] = useState('')
@@ -16,7 +16,7 @@ const FormularioCampoTexto = (props) => {
     return (
         <div className="formulario-campo-texto">
             <label> {props.label} </label>
-            <input value={props.valor} onChange={aoDigitado} required={props.obrigatorio} placeholder={placeholderModificiada}/>
+            <input value={props.valor} onChange={aoDigitado} required={props.obrigatorio} placeholder={placeholderModificada}/>
         </div>
     )
 }
